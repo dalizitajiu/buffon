@@ -188,7 +188,7 @@ fastify.register(function (instance, opts, next) {
 //     reply.header('Content-Type','application/json').code(200)
 //     reply.send()
 // })
-console.log("fuck shit")
+console.log("fuck shit222222")
 fastify.listen(3000, err => {
   if (err) {
     console.log(err)

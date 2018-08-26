@@ -1,0 +1,22 @@
+{
+  "name": "buffon",
+  "version": "1.0.0",
+  "description": "权限guanli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "supervisor node index.js"
+  },
+  "keywords": [
+    "right"
+  ],
+  "author": "李小孟",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.2",
+    "request": "^2.85.0",
+    "sequelize": "^4.37.1",
+    "fastify": "^1.10.0"
+  }
+}

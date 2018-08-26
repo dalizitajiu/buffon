@@ -1,7 +1,7 @@
 {
   "name": "buffon",
   "version": "1.0.0",
-  "description": "权限guanli",
+  "description": "权限管理",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -14,9 +14,10 @@
   "author": "李小孟",
   "license": "ISC",
   "dependencies": {
+    "fastify": "^1.10.0",
     "mysql2": "^1.5.2",
+    "pm2": "^3.0.4",
     "request": "^2.85.0",
-    "sequelize": "^4.37.1",
-    "fastify": "^1.10.0"
+    "sequelize": "^4.37.1"
   }
 }

@@ -189,7 +189,7 @@ fastify.register(function (instance, opts, next) {
 //     reply.send()
 // })
 console.log("终于成功了，year")
-fastify.listen(3000, err => {
+fastify.listen("0.0.0.0:3000", err => {
   if (err) {
     console.log(err)
     throw err
